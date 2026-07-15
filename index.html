@@ -78,33 +78,38 @@
           </p>
         </div>
 
-        <div class="chart-card" aria-label="Illustrative chart showing opponent appeal as a stronger attendance signal than recent performance">
+        <div class="chart-card" aria-label="Actual dashboard results comparing marquee-opponent attendance lifts">
           <div class="chart-header">
-            <div><span>Key finding</span><strong>Opponent appeal &gt; recent form</strong></div>
-            <span class="status-pill">Live</span>
+            <div><span>Actual dashboard result</span><strong>Marquee-opponent attendance lift</strong></div>
+            <span class="status-pill">Real data</span>
           </div>
-          <div class="chart-plot" aria-hidden="true">
-            <div class="chart-axis"><span>High</span><span>Fan interest</span><span>Low</span></div>
-            <div class="bars">
-              <span style="height:35%"></span><span style="height:48%"></span><span style="height:44%"></span>
-              <span style="height:67%"></span><span style="height:76%"></span><span style="height:91%"></span>
+          <div class="actual-chart">
+            <div class="actual-row">
+              <span class="actual-label">Fire vs. Miami</span>
+              <div class="actual-track" aria-hidden="true"><i style="width:100%"></i></div>
+              <strong>+166%</strong>
             </div>
-            <div class="trend-line"></div>
+            <div class="actual-row">
+              <span class="actual-label">White Sox vs. Cubs</span>
+              <div class="actual-track" aria-hidden="true"><i style="width:69%"></i></div>
+              <strong>+115%</strong>
+            </div>
+            <div class="actual-row">
+              <span class="actual-label">Bulls vs. Detroit</span>
+              <div class="actual-track" aria-hidden="true"><i style="width:4%"></i></div>
+              <strong>+6%</strong>
+            </div>
           </div>
-          <div class="chart-legend">
-            <span><i class="legend-orange"></i> Attendance signal</span>
-            <span><i class="legend-blue"></i> Performance trend</span>
-          </div>
+          <p class="chart-source">Lift compared with each team's average home-game attendance.</p>
         </div>
 
         <div class="project-method">
           <div><span class="method-index">A</span><p><strong>Built</strong> with Python, Streamlit, Pandas, and Plotly.</p></div>
           <div><span class="method-index">B</span><p><strong>Found</strong> recent winning had a weak relationship with attendance.</p></div>
           <div><span class="method-index">C</span><p><strong>Measured</strong> major lifts for marquee opponents and weekend games.</p></div>
-          <div class="project-links">
-            <a href="https://chicago-home-game-impact-muxvgnmeaudh2kxninzezf.streamlit.app/" target="_blank" rel="noreferrer">Explore the live dashboard <span aria-hidden="true">↗</span></a>
-            <a href="https://github.com/vpalant3/chicago-home-game-impact" target="_blank" rel="noreferrer">View the project code <span aria-hidden="true">↗</span></a>
-          </div>
+          <a class="project-cta" href="https://chicago-home-game-impact-muxvgnmeaudh2kxninzezf.streamlit.app/" target="_blank" rel="noreferrer">
+            Explore the live dashboard <span aria-hidden="true">↗</span>
+          </a>
         </div>
       </div>
     </section>
